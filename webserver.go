@@ -14,7 +14,7 @@ func main() {
 	whitelist := []string{"broyojo.com", "www.broyojo.com"}
 	certmagic.DefaultACME.Agreed = true
 	certmagic.DefaultACME.Email = "dha@xoba.com"
-	log.Println("starting server...")
+	log.Println("Starting Webserver...")
 	log.Fatal(certmagic.HTTPS(whitelist, http.HandlerFunc(serve)))
 }
 
