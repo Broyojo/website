@@ -1,2 +1,2 @@
-# website
-my website
+# Broyojo's Website
+For showcasing my various projects
