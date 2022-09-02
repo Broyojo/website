@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>(Workable) Time until school starts</title>
+    <style>
+        h1 {
+            font-size: 10em;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1 id="main"></h1>
+    </center>
+    <script>
+        setInterval(function () {
+            var now = new Date();
+            var tuesday = new Date(2022, 8, 6, 7, 30, 0);
+            var hoursBetween = Math.abs(now - tuesday) / 36e5;
+            var workableTime = hoursBetween / 2;
+
+            document.getElementById("main").innerHTML = `There are ${workableTime.toFixed(2)} hours left`;
+        }, 1000);
+    </script>
+</body>
+</html>
