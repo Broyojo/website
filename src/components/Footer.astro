@@ -1,0 +1,15 @@
+---
+
+---
+
+<footer>
+    <script>
+        function setCurrentYear() {
+            document.getElementById("year")!.innerHTML = new Date()
+                .getFullYear()
+                .toString();
+        }
+        document.addEventListener("DOMContentLoaded", setCurrentYear);
+    </script>
+    © <span id="year"></span> David Andrews. All rights reserved.
+</footer>
