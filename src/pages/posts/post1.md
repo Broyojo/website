@@ -14,6 +14,7 @@ tags: ["astro", "blogging", "learning in public"]
 ## Markdown: Syntax
 
 - [Latex](#latex)
+  - [Video:](#video)
   - [Overview](#overview)
     - [Philosophy](#philosophy)
   - [Block Elements](#block-elements)
@@ -85,6 +86,10 @@ float Q_rsqrt( float number )
 	return y;
 }
 ```
+
+## Video:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BwxEGKpONMA?si=6Ag_UR0j_amu2XgF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Note:** This document is itself written using Markdown; you
 can [see the source for it by adding '.text' to the URL](/projects/markdown/syntax.text).
