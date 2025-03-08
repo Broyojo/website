@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/PostLayout.astro
 title: 'Test post'
-pubDate: 2025-07-03
+pubDate: 2025-07-02
 description: 'This is a test post.'
 author: 'David Andrews'
 draft: true
