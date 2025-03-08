@@ -5,28 +5,8 @@ body {
     font-size: 1.0em;
 }
 
-@media (max-width: 600px) {
-    body {
-        font-size: 1em;
-    }
-}
-
 a {
     color: inherit;
-}
-
-#photo {
-    width: 30%;
-    height: auto;
-    border-radius: 10px;
-}
-
-@media (max-width: 600px) {
-    #photo {
-        width: 80%;
-        height: auto;
-        border-radius: 10px;
-    }
 }
 
 code {
